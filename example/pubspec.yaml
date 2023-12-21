@@ -15,11 +15,6 @@ dependencies:
   flutter_localizations:
     sdk: flutter
 
-  provider: ^6.0.0
-  json_annotation: ^4.1.0
-  http: ^0.13.3
-
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
