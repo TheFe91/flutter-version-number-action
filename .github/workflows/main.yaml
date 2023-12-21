@@ -1,16 +1,14 @@
 on:
   push:
-    branches:
-      - main
 name: Test
 jobs:
   test:
     name: test
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - id: read-version
-        uses: NiklasLehnfeld/flutter-version-number-action@main
+        uses: TheFe91/flutter-version-number-action@main
         with:
           file-path: example/pubspec.yaml
       - uses: nick-invision/assert-action@v1
