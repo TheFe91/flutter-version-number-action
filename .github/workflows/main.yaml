@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: read-version
-        uses: TheFe91/flutter-version-number-action@1.0.0
+        uses: TheFe91/flutter-version-number-action@main
         with:
           file-path: example/pubspec.yaml
       - uses: nick-invision/assert-action@v1
